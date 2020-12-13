@@ -6,10 +6,205 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body background="https://www.investigacionyciencia.es/images/32872/articleImage-full.jpg">
+      <div>
+
+        <div>
+          <div></div>
+          <div class="card" style="width: 18rem; text-align: center; background-color: black;">
+              <div class="card-body">
+                <h1 class="tituloCarta">El juego de la vida</h1>
+                
+                <p style="color:white;">Acontinuacion puede realizar una configuracion inicial para estudiar</p>
+                <input type="button" value="Configurar patron" onclick="iniciarConfiguracion();" class="botones">
+                <br>
+                <br>
+
+                <input type="button" value="" onclick="cambiarEstato(0,0);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(0,1);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(0,2);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(0,3);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(0,4);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(0,5);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(0,6);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(0,7);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(0,8);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(0,9);" class="botonesMatriz">
+                <br>
+  
+                <input type="button" value="" onclick="cambiarEstato(1,0);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(1,1);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(1,2);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(1,3);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(1,4);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(1,5);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(1,6);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(1,7);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(1,8);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(1,9);" class="botonesMatriz">
+                <br>
+  
+                <input type="button" value="" onclick="cambiarEstato(2,0);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(2,1);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(2,2);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(2,3);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(2,4);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(2,5);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(2,6);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(2,7);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(2,8);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(2,9);" class="botonesMatriz">
+                <br>
+                <input type="button" value="" onclick="cambiarEstato(3,0);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(3,1);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(3,2);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(3,3);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(3,4);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(3,5);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(3,6);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(3,7);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(3,8);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(3,9);" class="botonesMatriz">
+                <br>
+
+                <input type="button" value="" onclick="cambiarEstato(4,0);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(4,1);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(4,2);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(4,3);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(4,4);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(4,5);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(4,6);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(4,7);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(4,8);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(4,9);" class="botonesMatriz">
+                <br>
+
+                <input type="button" value="" onclick="cambiarEstato(5,0);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(5,1);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(5,2);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(5,3);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(5,4);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(5,5);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(5,6);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(5,7);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(5,8);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(5,9);" class="botonesMatriz">
+                <br>
+
+                <input type="button" value="" onclick="cambiarEstato(6,0);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(6,1);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(6,2);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(6,3);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(6,4);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(6,5);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(6,6);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(6,7);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(6,8);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(6,9);" class="botonesMatriz">
+                <br>
+
+                <input type="button" value="" onclick="cambiarEstato(7,0);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(7,1);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(7,2);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(7,3);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(7,4);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(7,5);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(7,6);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(7,7);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(7,8);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(7,9);" class="botonesMatriz">
+                <br>
+
+                <input type="button" value="" onclick="cambiarEstato(8,0);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(8,1);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(8,2);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(8,3);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(8,4);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(8,5);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(8,6);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(8,7);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(8,8);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(8,9);" class="botonesMatriz">
+                <br>
+
+                <input type="button" value="" onclick="cambiarEstato(9,0);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(9,1);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(9,2);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(9,3);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(9,4);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(9,5);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(9,6);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(9,7);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(9,8);" class="botonesMatriz">
+                <input type="button" value="" onclick="cambiarEstato(9,9);" class="botonesMatriz">
+                <br>
+  
+  
+  
+  
+  
+  
+  
+  
+                <br>
+                <br>
+                <input type="button" value="Iniciar patron" onclick="aplicarConfiguracion();" class="botones">
+                <br>
+                <br>
+                <input type="button" value="Pausar" onclick="enPausa();" class="botones">
+          <input type="button" value="Continuar" onclick="seguir();" class="botones">
+              </div>
+            </div>
+          </div>
+    <div class="card"  style="width: 18rem; text-align: center; background-color: black; ">
+        <div class="card-body">
+          <p style="color:white;" class="card-text">A continuación se muestran diferentes configuraciones iniciales predeterminadas de autómatas celulares que simulan el juego de la vida de Conway.</p>
+          <br>
+
+          <input type="button" value="Gosper Glider Gun" onclick="pistola();" class="botones">
+          <br>
+          <br>
+          <input type="button" value="Bala Perdida" onclick="balaPerdia();" class="botones">
+          <br>
+          <br>
+          <input type="button" value="Pez en el Agua" onclick="pezEnAgua();" class="botones">
+          <br>
+          <br>
+          <input type="button" value="Big Bang" onclick="bingBang();" class="botones">
+          <br>
+          <br>
+          <input type="button" value="Oscilador" onclick="oscilador();" class="botones">
+          <br>
+          <br>
+          <input type="button" value="Planeador" onclick="planeador();" class="botones">
+          <br>
+          <br>
+          <input type="button" value="Entropia" onclick="entropia();" class="botones">
+          <br>
+          <br>
+          <input type="button" value="Sin Vida" onclick="programar();" class="botones">
+          <br>
+          <br>
+          <input type="button" value="Pausar" onclick="enPausa();" class="botones">
+          <input type="button" value="Continuar" onclick="seguir();" class="botones">
+        </div>
+        </div>
+      </div>
+        <div>
+          <div class="card" style="width: 18rem; text-align: center; background-color: black;">
+              <div class="card-body">
+                <h2 class="tituloCarta">Introducción a la Teoría Computacional</h2>
+                <p style="color:white;">Sebastian Santos - 201816848</p>
+                <p style="color:white;">Azul Manzano - 201814117</p>
+                <br>
+              </div>
+            </div>
+          </div>
+    </div>
+    <script src="sketch.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
-    <script src="sketch.js"></script>
+    
 </body>
 </html>

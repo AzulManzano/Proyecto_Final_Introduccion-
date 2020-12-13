@@ -14,3 +14,33 @@ canvas {
   padding: 20px;
   text-align: center;
 }
+
+.centrado{
+  text-align: center;
+}
+
+.botones{
+  background-color: fuchsia; 
+  width:140px; 
+  height:24px;
+  padding: .2em 1em .275em
+}
+
+.botones {
+  color: #d7d7d7;
+  border: solid 1px #333;
+  background: #333;
+  background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#000));
+  background: -moz-linear-gradient(top,  #666,  #000);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#000000');
+  }
+.tituloCarta{
+  text-align: center;
+  color: #d7d7d7;
+}
+.botonesMatriz
+{
+  background-color:#666!important; 
+  width:20px; 
+  height:20px;
+  }
